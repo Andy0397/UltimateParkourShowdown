@@ -1,0 +1,4 @@
+PART_TOUCH_ENTITY_BEGIN {
+	SetEntityRebirthPosition(entity = $obj2, pos = { x = 52.0686416625977, y = 45.8500128173828, z = 90.6102828979492 })
+	ShowTip(entity = $obj2, keepTime = 100, textKey = "8c6730f2-459a-42cc-81a1-b844ec94981b", tipType = "1")
+}

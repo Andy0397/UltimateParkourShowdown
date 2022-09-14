@@ -1,0 +1,3407 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/Sky_back.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_back.png"
+        },
+        "bottom": {
+          "asset": "asset/Sky_bottom.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
+        },
+        "front": {
+          "asset": "asset/Sky_front.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_front.png"
+        },
+        "left": {
+          "asset": "asset/Sky_left.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_left.png"
+        },
+        "right": {
+          "asset": "asset/Sky_right.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_right.png"
+        },
+        "top": {
+          "asset": "asset/Sky_top.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8636598139055390721",
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight",
+        "skyColor": {
+          "b": 146,
+          "g": 146,
+          "r": 146
+        },
+        "skyLineColor": {
+          "b": 153,
+          "g": 118,
+          "r": 103
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8636598139123630081",
+        "lightBrightness": 0.6,
+        "lightColor": {
+          "b": 248
+        },
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "x": 30,
+          "z": 30
+        },
+        "shadows": {
+          "shadowsType": "hard"
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "c57b25e0-05c4-495a-9260-6f1763f25fc3",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8712943737402572801",
+        "massCenter": {
+          "x": 52.1420211791992,
+          "z": 21.9145088195801
+        },
+        "material": {
+          "alpha": 0,
+          "color": {
+            "b": 212,
+            "g": 212,
+            "r": 212
+          }
+        },
+        "name": "Baseplate",
+        "position": {
+          "x": 52.1420211791992,
+          "z": 21.9145088195801
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 68.0257,
+          "y": 0.999982,
+          "z": 185.153
+        },
+        "size": {
+          "x": 68.0257339477539,
+          "y": 0.999982178211212,
+          "z": 185.152526855469
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "4ee674a5-509d-45d2-b0d3-7c540ac23ba7",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8800821734859128833",
+        "massCenter": {
+          "x": 52.5832595825195,
+          "y": 2.50003814697266,
+          "z": -64.5141830444336
+        },
+        "material": {
+          "color": {
+            "b": 103,
+            "g": 95,
+            "r": 95
+          }
+        },
+        "name": "check point",
+        "position": {
+          "x": 52.5832595825195,
+          "y": 2.50003814697266,
+          "z": -64.5141830444336
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 9,
+          "y": 4,
+          "z": 9
+        },
+        "size": {
+          "x": 9,
+          "y": 4,
+          "z": 9
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "7593daa4-cff2-4a6a-9f63-b2889707116a",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8800851731770359809",
+        "massCenter": {
+          "x": 52.5832595825195,
+          "y": 4,
+          "z": -56.3221549987793
+        },
+        "material": {
+          "color": {
+            "b": 223,
+            "g": 226,
+            "r": 226
+          }
+        },
+        "name": "StartTimer",
+        "position": {
+          "x": 52.5832595825195,
+          "y": 4,
+          "z": -56.3221549987793
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 17,
+          "z": 4
+        },
+        "size": {
+          "x": 17,
+          "z": 4
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "ab3ec207-c83a-4b31-afc4-0036214ba86a",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800821286204112897",
+            "massCenter": {
+              "x": 53.998893737793,
+              "y": 2.00000190734863,
+              "z": -20.4403953552246
+            },
+            "position": {
+              "x": 53.998893737793,
+              "y": 2.00000190734863,
+              "z": -20.4403953552246
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 4,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 4,
+              "z": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "ddb808d5-f309-412e-882c-6095d9aaf04b",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800820642782560257",
+            "massCenter": {
+              "x": 54.1651496887207,
+              "y": 1.50003433227539,
+              "z": -28.6993942260742
+            },
+            "position": {
+              "x": 54.1651496887207,
+              "y": 1.50003433227539,
+              "z": -28.6993942260742
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 2,
+              "z": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "fc6e5c06-d87d-4250-a53d-17250f5e3c41",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800820165255610369",
+            "massCenter": {
+              "x": 56.1315650939941,
+              "y": 1.5000171661377,
+              "z": -38.2978134155273
+            },
+            "position": {
+              "x": 56.1315650939941,
+              "y": 1.5000171661377,
+              "z": -38.2978134155273
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 2,
+              "z": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "897eefdb-bd22-4274-bea9-18160ce9a68f",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800817555874562049",
+            "massCenter": {
+              "x": 51.3483390808105,
+              "y": 1.0000638961792,
+              "z": -33.4485626220703
+            },
+            "position": {
+              "x": 51.3483390808105,
+              "y": 1.0000638961792,
+              "z": -33.4485626220703
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "z": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "92f20bfe-aa68-48b6-9c2f-eda6b85eafbd",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800814997266563073",
+            "massCenter": {
+              "x": 50.1113052368164,
+              "y": 2,
+              "z": -25.0552520751953
+            },
+            "position": {
+              "x": 50.1113052368164,
+              "y": 2,
+              "z": -25.0552520751953
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 3,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 3,
+              "z": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "efd1a393-d21c-4947-9ab6-c9ff7fa75336",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800814992057909249",
+            "massCenter": {
+              "x": 52.4470443725586,
+              "y": 1,
+              "z": -42.4784278869629
+            },
+            "position": {
+              "x": 52.4470443725586,
+              "y": 1,
+              "z": -42.4784278869629
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "z": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "c42bde30-a6ed-40f2-8191-fda4307d95aa",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800814977136132097",
+            "massCenter": {
+              "x": 49.1680335998535,
+              "y": 1,
+              "z": -46.8644371032715
+            },
+            "position": {
+              "x": 49.1680335998535,
+              "y": 1,
+              "z": -46.8644371032715
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "z": 3
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "384f18c1-9e35-4356-b17c-b2b15402b7b3",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800813798080839681",
+            "massCenter": {
+              "x": 52.4070510864258,
+              "y": 1,
+              "z": -51.2354202270508
+            },
+            "position": {
+              "x": 52.4070510864258,
+              "y": 1,
+              "z": -51.2354202270508
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "z": 3
+            }
+          }
+        ],
+        "id": "8800824403767656449",
+        "name": "R1",
+        "position": {
+          "x": 52.6497993469238,
+          "y": 2.00000196695328,
+          "z": -35.8379077911377
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "cfa30698-92aa-4131-8dfb-2272169c1f03",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8800811278245478401",
+        "massCenter": {
+          "x": 52.4058685302734,
+          "y": 2.50000190734863,
+          "z": -12.9484529495239
+        },
+        "material": {
+          "color": {
+            "b": 103,
+            "g": 95,
+            "r": 95
+          }
+        },
+        "name": "check point",
+        "position": {
+          "x": 52.4058685302734,
+          "y": 2.50000190734863,
+          "z": -12.9484529495239
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 17,
+          "y": 4,
+          "z": 9
+        },
+        "size": {
+          "x": 17,
+          "y": 4,
+          "z": 9
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "d1fd04e7-5f97-406c-9704-239713e2e256",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800825069968916481",
+            "massCenter": {
+              "x": 52.6473350524902,
+              "y": 2.50000739097595,
+              "z": 6.39249849319458
+            },
+            "material": {
+              "color": {
+                "b": 54,
+                "g": 202
+              }
+            },
+            "name": "Platform",
+            "position": {
+              "x": 52.6473350524902,
+              "y": 2.50000739097595,
+              "z": 6.39249849319458
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 4.99998,
+              "y": 3.99999,
+              "z": 26.5028
+            },
+            "size": {
+              "x": 4.99997806549072,
+              "y": 3.99998927116394,
+              "z": 26.5028457641602
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "e7019ac6-04a0-41f4-85f8-fd13d221de5b",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800834887777386497",
+                "massCenter": {
+                  "x": 52.6542472839355,
+                  "y": 4.75851774215698,
+                  "z": 13.7609663009644
+                },
+                "material": {
+                  "color": {
+                    "b": 87,
+                    "g": 87,
+                    "r": 210
+                  }
+                },
+                "name": "kill",
+                "position": {
+                  "x": 52.6542472839355,
+                  "y": 4.75851774215698,
+                  "z": 13.7609663009644
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 4.96295,
+                  "y": 0.516991,
+                  "z": 0.368986
+                },
+                "size": {
+                  "x": 4.96295118331909,
+                  "y": 0.516991436481476,
+                  "z": 0.368986129760742
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "7981e32f-340b-4e51-b71e-d9f65fc64511",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800826313700458497",
+                "massCenter": {
+                  "x": 52.6542472839355,
+                  "y": 4.74851751327515,
+                  "z": -4.22403287887573
+                },
+                "material": {
+                  "color": {
+                    "b": 87,
+                    "g": 87,
+                    "r": 210
+                  }
+                },
+                "name": "kill",
+                "position": {
+                  "x": 52.6542472839355,
+                  "y": 4.74851751327515,
+                  "z": -4.22403287887573
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 4.96295,
+                  "y": 0.496992,
+                  "z": 0.342986
+                },
+                "size": {
+                  "x": 4.96295309066772,
+                  "y": 0.496991574764252,
+                  "z": 0.342986196279526
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "b2eb4b5c-5eb1-4f69-aef2-09d32f635cf3",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800827669764521985",
+                "massCenter": {
+                  "x": 52.6542472839355,
+                  "y": 4.74851751327515,
+                  "z": -2.02553415298462
+                },
+                "material": {
+                  "color": {
+                    "b": 87,
+                    "g": 87,
+                    "r": 210
+                  }
+                },
+                "name": "kill",
+                "position": {
+                  "x": 52.6542472839355,
+                  "y": 4.74851751327515,
+                  "z": -2.02553415298462
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 4.96296,
+                  "y": 0.496992,
+                  "z": 0.389986
+                },
+                "size": {
+                  "x": 4.96295547485352,
+                  "y": 0.496991723775864,
+                  "z": 0.389986425638199
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "2de0de42-ca82-4696-b261-10c1747d9723",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800827987626803201",
+                "massCenter": {
+                  "x": 52.6134872436523,
+                  "y": 4.74853086471558,
+                  "z": 10.364634513855
+                },
+                "material": {
+                  "color": {
+                    "b": 87,
+                    "g": 87,
+                    "r": 210
+                  }
+                },
+                "name": "kill",
+                "position": {
+                  "x": 52.6134872436523,
+                  "y": 4.74853086471558,
+                  "z": 10.364634513855
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -45
+                },
+                "scale": {
+                  "x": 6.62641,
+                  "y": 0.496991,
+                  "z": 0.352624
+                },
+                "size": {
+                  "x": 6.62640905380249,
+                  "y": 0.496990710496902,
+                  "z": 0.352624177932739
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "3c615c90-5a96-4ec1-be2b-8eac89d0c789",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800829615213756417",
+                "massCenter": {
+                  "x": 52.5988922119141,
+                  "y": 4.74850940704346,
+                  "z": 10.4018898010254
+                },
+                "material": {
+                  "color": {
+                    "b": 87,
+                    "g": 87,
+                    "r": 210
+                  }
+                },
+                "name": "kill",
+                "position": {
+                  "x": 52.5988922119141,
+                  "y": 4.74850940704346,
+                  "z": 10.4018898010254
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": 45
+                },
+                "scale": {
+                  "x": 6.62641,
+                  "y": 0.496991,
+                  "z": 0.356867
+                },
+                "size": {
+                  "x": 6.62640905380249,
+                  "y": 0.496990770101547,
+                  "z": 0.356866866350174
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "007383fd-ac34-4711-b800-82602d53bb0f",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800830524607856641",
+                "massCenter": {
+                  "x": 52.6156425476074,
+                  "y": 4.74850988388062,
+                  "z": 5.92660474777222
+                },
+                "material": {
+                  "color": {
+                    "b": 87,
+                    "g": 87,
+                    "r": 210
+                  }
+                },
+                "name": "kill",
+                "position": {
+                  "x": 52.6156425476074,
+                  "y": 4.74850988388062,
+                  "z": 5.92660474777222
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": 45
+                },
+                "scale": {
+                  "x": 6.62641,
+                  "y": 0.496991,
+                  "z": 0.301713
+                },
+                "size": {
+                  "x": 6.62640905380249,
+                  "y": 0.496990770101547,
+                  "z": 0.301712512969971
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "ddf38abb-b94c-47f7-b12e-c9d334df42af",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800830656317014017",
+                "isLockedInEditor": true,
+                "massCenter": {
+                  "x": 52.4410705566406,
+                  "y": 4.74851751327515,
+                  "z": 1.17876625061035
+                },
+                "material": {
+                  "color": {
+                    "b": 87,
+                    "g": 87,
+                    "r": 210
+                  }
+                },
+                "name": "kill",
+                "position": {
+                  "x": 52.4410705566406,
+                  "y": 4.74851751327515,
+                  "z": 1.17876625061035
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -45
+                },
+                "scale": {
+                  "x": 6.62641,
+                  "y": 0.496991,
+                  "z": 0.242315
+                },
+                "size": {
+                  "x": 6.62640905380249,
+                  "y": 0.496990710496902,
+                  "z": 0.242315426468849
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "55b1eae5-e113-4140-b3a3-aebf57466df7",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800834375884554241",
+                "massCenter": {
+                  "x": 52.6542472839355,
+                  "y": 4.74851751327515,
+                  "z": 16.082462310791
+                },
+                "material": {
+                  "color": {
+                    "b": 87,
+                    "g": 87,
+                    "r": 210
+                  }
+                },
+                "name": "kill",
+                "position": {
+                  "x": 52.6542472839355,
+                  "y": 4.74851751327515,
+                  "z": 16.082462310791
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 4.96296,
+                  "y": 0.496992,
+                  "z": 0.368987
+                },
+                "size": {
+                  "x": 4.96295595169067,
+                  "y": 0.496991753578186,
+                  "z": 0.368986576795578
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "c42db200-8c6c-4d4e-90ab-71926c381875",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800834870863806465",
+                "massCenter": {
+                  "x": 52.6542472839355,
+                  "y": 4.74851751327515,
+                  "z": 18.3064575195312
+                },
+                "material": {
+                  "color": {
+                    "b": 87,
+                    "g": 87,
+                    "r": 210
+                  }
+                },
+                "name": "kill",
+                "position": {
+                  "x": 52.6542472839355,
+                  "y": 4.74851751327515,
+                  "z": 18.3064575195312
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 4.96296,
+                  "y": 0.496992,
+                  "z": 0.333987
+                },
+                "size": {
+                  "x": 4.96295547485352,
+                  "y": 0.496991723775864,
+                  "z": 0.333986550569534
+                },
+                "useAnchor": true
+              }
+            ],
+            "id": "8800836400228941825",
+            "name": "kill",
+            "position": {
+              "x": 52.6188545227051,
+              "y": 4.7485203742981,
+              "z": 6.26696538925171
+            }
+          }
+        ],
+        "id": "8800837748236140545",
+        "name": "R2",
+        "position": {
+          "x": 52.6188564300537,
+          "y": 2.74851959943771,
+          "z": 6.392498254776
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "ceb792e9-f2c2-44ba-9cd9-26dde8149671",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8800838117078024193",
+        "massCenter": {
+          "x": 52.4058685302734,
+          "y": 2.50000190734863,
+          "z": 25.6035499572754
+        },
+        "material": {
+          "color": {
+            "b": 103,
+            "g": 95,
+            "r": 95
+          }
+        },
+        "name": "check point",
+        "position": {
+          "x": 52.4058685302734,
+          "y": 2.50000190734863,
+          "z": 25.6035499572754
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 17,
+          "y": 4,
+          "z": 9
+        },
+        "size": {
+          "x": 17,
+          "y": 4,
+          "z": 9
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "53d8fac1-e58a-44ca-a62d-7d405fecfffe",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800878063512944641",
+            "lineVelocity": {
+              "y": 35,
+              "z": 65
+            },
+            "massCenter": {
+              "x": 57.973876953125,
+              "y": 31.9698486328125,
+              "z": 76.7141876220703
+            },
+            "material": {
+              "color": {
+                "g": 85,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": 57.973876953125,
+              "y": 31.9698486328125,
+              "z": 76.7141876220703
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 2.99999,
+              "y": 0.539997,
+              "z": 2.99999
+            },
+            "size": {
+              "x": 2.99998617172241,
+              "y": 0.539996683597565,
+              "z": 2.99998593330383
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "3cd95a3d-240a-42a9-ac6f-b48f9f880c68",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800878052005330945",
+            "lineVelocity": {
+              "y": 35,
+              "z": 55
+            },
+            "massCenter": {
+              "x": 53.0168724060059,
+              "y": 16.6548385620117,
+              "z": 74.8151016235352
+            },
+            "material": {
+              "color": {
+                "g": 85,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": 53.0168724060059,
+              "y": 16.6548385620117,
+              "z": 74.8151016235352
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 2.99999,
+              "y": 0.539997,
+              "z": 2.99999
+            },
+            "size": {
+              "x": 2.99998617172241,
+              "y": 0.539996683597565,
+              "z": 2.99998593330383
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "b3a37995-a875-406f-bcad-70777b528b4d",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800875283661488129",
+            "lineVelocity": {
+              "y": 35,
+              "z": 55
+            },
+            "massCenter": {
+              "x": 59.3788795471191,
+              "y": 6.35883951187134,
+              "z": 68.1931304931641
+            },
+            "material": {
+              "color": {
+                "g": 85,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": 59.3788795471191,
+              "y": 6.35883951187134,
+              "z": 68.1931304931641
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 2.99999,
+              "y": 0.539997,
+              "z": 2.99999
+            },
+            "size": {
+              "x": 2.99998617172241,
+              "y": 0.539996683597565,
+              "z": 2.99998593330383
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "60705c5a-f534-44d4-b81b-2747642f1fa6",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800866199934910465",
+            "lineVelocity": {
+              "x": 40,
+              "y": 35,
+              "z": 55
+            },
+            "massCenter": {
+              "x": 49.3308715820312,
+              "y": 6.35883951187134,
+              "z": 60.0581207275391
+            },
+            "material": {
+              "color": {
+                "g": 85,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": 49.3308715820312,
+              "y": 6.35883951187134,
+              "z": 60.0581207275391
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -35
+            },
+            "scale": {
+              "x": 2.99999,
+              "y": 0.539997,
+              "z": 2.99999
+            },
+            "size": {
+              "x": 2.99998617172241,
+              "y": 0.539996683597565,
+              "z": 2.99998593330383
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "cbd7b5d9-66f0-4b11-847c-d3c409a22d94",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800866194611568641",
+            "lineVelocity": {
+              "x": -40,
+              "y": 35,
+              "z": 55
+            },
+            "massCenter": {
+              "x": 57.6788711547852,
+              "y": 6.35883951187134,
+              "z": 49.9491348266602
+            },
+            "material": {
+              "color": {
+                "g": 85,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": 57.6788711547852,
+              "y": 6.35883951187134,
+              "z": 49.9491348266602
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": 35
+            },
+            "scale": {
+              "x": 2.99999,
+              "y": 0.539997,
+              "z": 2.99999
+            },
+            "size": {
+              "x": 2.99998617172241,
+              "y": 0.539996683597565,
+              "z": 2.99998593330383
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "59e81963-789e-40a9-a86e-d9d1dfe30986",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800866189711441921",
+            "lineVelocity": {
+              "x": 40,
+              "y": 35,
+              "z": 55
+            },
+            "massCenter": {
+              "x": 48.0198783874512,
+              "y": 6.35883951187134,
+              "z": 39.5781288146973
+            },
+            "material": {
+              "color": {
+                "g": 85,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": 48.0198783874512,
+              "y": 6.35883951187134,
+              "z": 39.5781288146973
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -35
+            },
+            "scale": {
+              "x": 2.99999,
+              "y": 0.539997,
+              "z": 2.99999
+            },
+            "size": {
+              "x": 2.99998617172241,
+              "y": 0.539996683597565,
+              "z": 2.99998593330383
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "35aebf40-709b-457b-9f3d-08ef7b21434b",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800864156085141505",
+            "lineVelocity": {
+              "x": -40,
+              "y": 35,
+              "z": 55
+            },
+            "massCenter": {
+              "x": 58.249,
+              "y": 5.61923313140869,
+              "z": 32.8971328735352
+            },
+            "material": {
+              "color": {
+                "g": 0,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": 58.249,
+              "y": 5.61923313140869,
+              "z": 32.8971328735352
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": 35
+            },
+            "scale": {
+              "x": 2.99999,
+              "y": 0.539997,
+              "z": 2.99999
+            },
+            "size": {
+              "x": 2.99998617172241,
+              "y": 0.539996683597565,
+              "z": 2.99998593330383
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8800886091309629441",
+        "name": "R3",
+        "position": {
+          "x": 53.7575817108154,
+          "y": 18.3887734413147,
+          "z": 54.8056592941284
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "6386d9cd-5d4c-43b0-9d9a-bcf5284ab94a",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8800886579417956353",
+        "massCenter": {
+          "x": 52.4058685302734,
+          "y": 43.8100166320801,
+          "z": 90.3215942382812
+        },
+        "material": {
+          "color": {
+            "b": 103,
+            "g": 95,
+            "r": 95
+          }
+        },
+        "name": "check point",
+        "position": {
+          "x": 52.4058685302734,
+          "y": 43.8100166320801,
+          "z": 90.3215942382812
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 17,
+          "y": 4,
+          "z": 9
+        },
+        "size": {
+          "x": 17,
+          "y": 4,
+          "z": 9
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "9ff71a67-d329-42ec-b4ae-47715f48f9f1",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8800889582979235841",
+        "massCenter": {
+          "x": 52.1420211791992,
+          "y": 39.0860023498535,
+          "z": 211.734985351562
+        },
+        "material": {
+          "alpha": 0,
+          "color": {
+            "b": 212,
+            "g": 212,
+            "r": 212
+          }
+        },
+        "name": "Baseplate",
+        "position": {
+          "x": 52.1420211791992,
+          "y": 39.0860023498535,
+          "z": 211.734985351562
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 69.0248,
+          "y": 0.999973,
+          "z": 241.076
+        },
+        "size": {
+          "x": 69.0247955322266,
+          "y": 0.999972581863403,
+          "z": 241.075912475586
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "1fb5a917-34a2-4c54-b2b4-901de6412360",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800894121692774401",
+            "massCenter": {
+              "x": 52.4468421936035,
+              "y": 50.77001953125,
+              "z": 94.2948226928711
+            },
+            "material": {
+              "color": {
+                "b": 219,
+                "g": 215,
+                "r": 215
+              }
+            },
+            "position": {
+              "x": 52.4468421936035,
+              "y": 50.77001953125,
+              "z": 94.2948226928711
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 17,
+              "y": 10
+            },
+            "size": {
+              "x": 17,
+              "y": 10
+            },
+            "useAnchor": true,
+            "useCollide": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "9a45e6f1-e6f8-4bac-814a-2e02c7e90e82",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800893827092627457",
+            "massCenter": {
+              "x": 48.0457038879395,
+              "y": 45.310001373291,
+              "z": 102.351531982422
+            },
+            "material": {
+              "color": {
+                "g": 199,
+                "r": 121
+              }
+            },
+            "position": {
+              "x": 48.0457038879395,
+              "y": 45.310001373291,
+              "z": 102.351531982422
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 4,
+              "z": 15
+            },
+            "size": {
+              "x": 4,
+              "z": 15
+            },
+            "useAnchor": true,
+            "useCollide": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "8485ebec-1487-4893-856f-81d58e4b401e",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800893074669010945",
+            "massCenter": {
+              "x": 55.6176948547363,
+              "y": 45.31,
+              "z": 102.351531982422
+            },
+            "material": {
+              "color": {
+                "g": 198,
+                "r": 120
+              }
+            },
+            "position": {
+              "x": 55.6176948547363,
+              "y": 45.31,
+              "z": 102.351531982422
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 4,
+              "z": 15
+            },
+            "size": {
+              "x": 4,
+              "z": 15
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8800896100971479041",
+        "name": "R4",
+        "position": {
+          "x": 52.4468421936035,
+          "y": 50.2900104522705,
+          "z": 101.823177337646
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "449f30ed-4350-463c-9cd0-3a98d5596c21",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8800896308790870017",
+        "massCenter": {
+          "x": 52.4058685302734,
+          "y": 43.8100166320801,
+          "z": 114.275581359863
+        },
+        "material": {
+          "color": {
+            "b": 103,
+            "g": 95,
+            "r": 95
+          }
+        },
+        "name": "check point",
+        "position": {
+          "x": 52.4058685302734,
+          "y": 43.8100166320801,
+          "z": 114.275581359863
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 17,
+          "y": 4,
+          "z": 9
+        },
+        "size": {
+          "x": 17,
+          "y": 4,
+          "z": 9
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "080f92d3-aba6-4981-bc8a-eba7e7288df1",
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800899624205582337",
+                "massCenter": {
+                  "x": 52.5276260375977,
+                  "y": 45.6646423339844,
+                  "z": 122.40909576416
+                },
+                "material": {
+                  "color": {
+                    "g": 170
+                  }
+                },
+                "name": "plate",
+                "position": {
+                  "x": 52.5276260375977,
+                  "y": 45.6646423339844,
+                  "z": 122.40909576416
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 5,
+                  "y": 0.532998,
+                  "z": 5
+                },
+                "shape": "3",
+                "size": {
+                  "x": 5,
+                  "y": 0.532998025417328,
+                  "z": 5
+                },
+                "useGravity": false
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "4de7ef03-1d29-4c73-9a85-fbc165b3afb8",
+                "cameraCollideEnable": false,
+                "children": [
+                  {
+                    "__OBJ_TYPE": "Instance_HingeConstraint",
+                    "id": "8800920657850515457",
+                    "masterPartName": "Part",
+                    "masterWorldPos": {
+                      "x": 52.5780944824219,
+                      "y": 43.4593467712402,
+                      "z": 124.166831970215
+                    },
+                    "motorForce": 50,
+                    "motorTargetAngleVelocity": 400,
+                    "slavePartID": "8800899624205582337",
+                    "slavePartName": "plate",
+                    "slaveWorldPos": {
+                      "x": 52.5276260375977,
+                      "y": 45.6646423339844,
+                      "z": 124.199104309082
+                    },
+                    "useMotor": true
+                  }
+                ],
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800901557805056001",
+                "massCenter": {
+                  "x": 52.5780944824219,
+                  "y": 43.4593467712402,
+                  "z": 122.376823425293
+                },
+                "material": {
+                  "alpha": 0,
+                  "color": {
+                    "b": 74,
+                    "g": 67,
+                    "r": 67
+                  }
+                },
+                "position": {
+                  "x": 52.5780944824219,
+                  "y": 43.4593467712402,
+                  "z": 122.376823425293
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 5,
+                  "z": 5
+                },
+                "size": {
+                  "x": 5,
+                  "z": 5
+                },
+                "useAnchor": true,
+                "useCollide": false,
+                "useGravity": false
+              }
+            ],
+            "id": "8800922239955959809",
+            "name": "1",
+            "position": {
+              "x": 52.5528602600098,
+              "y": 44.4452438354492,
+              "z": 122.390960693359
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "080f92d3-aba6-4981-bc8a-eba7e7288df1",
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800905474912649217",
+                "massCenter": {
+                  "x": 52.5276260375977,
+                  "y": 46.8056297302246,
+                  "z": 128.411209106445
+                },
+                "material": {
+                  "color": {
+                    "g": 170
+                  }
+                },
+                "name": "plate",
+                "position": {
+                  "x": 52.5276260375977,
+                  "y": 46.8056297302246,
+                  "z": 128.411209106445
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 5,
+                  "y": 0.532998,
+                  "z": 5
+                },
+                "shape": "3",
+                "size": {
+                  "x": 5,
+                  "y": 0.532998025417328,
+                  "z": 5
+                },
+                "useGravity": false
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "4de7ef03-1d29-4c73-9a85-fbc165b3afb8",
+                "children": [
+                  {
+                    "__OBJ_TYPE": "Instance_HingeConstraint",
+                    "id": "8800924466161074177",
+                    "masterPartName": "Part",
+                    "masterWorldPos": {
+                      "x": 52.5780944824219,
+                      "y": 43.4593467712402,
+                      "z": 132.581939697266
+                    },
+                    "motorForce": 50,
+                    "motorTargetAngleVelocity": -450,
+                    "slavePartID": "8800905474912649217",
+                    "slavePartName": "plate",
+                    "slaveWorldPos": {
+                      "x": 52.5276260375977,
+                      "y": 45.6646423339844,
+                      "z": 132.614196777344
+                    },
+                    "useMotor": true
+                  }
+                ],
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800905474910535681",
+                "massCenter": {
+                  "x": 52.5780944824219,
+                  "y": 44.6003341674805,
+                  "z": 128.378952026367
+                },
+                "material": {
+                  "alpha": 0,
+                  "color": {
+                    "b": 74,
+                    "g": 67,
+                    "r": 67
+                  }
+                },
+                "position": {
+                  "x": 52.5780944824219,
+                  "y": 44.6003341674805,
+                  "z": 128.378952026367
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 5,
+                  "z": 5
+                },
+                "size": {
+                  "x": 5,
+                  "z": 5
+                },
+                "useAnchor": true,
+                "useCollide": false,
+                "useGravity": false
+              }
+            ],
+            "id": "8800925281183727617",
+            "name": "2",
+            "position": {
+              "x": 52.5528602600098,
+              "y": 45.5862312316895,
+              "z": 128.395080566406
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "080f92d3-aba6-4981-bc8a-eba7e7288df1",
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800905673733062657",
+                "massCenter": {
+                  "x": 52.5276260375977,
+                  "y": 47.5626411437988,
+                  "z": 134.553237915039
+                },
+                "material": {
+                  "color": {
+                    "g": 170
+                  }
+                },
+                "name": "plate",
+                "position": {
+                  "x": 52.5276260375977,
+                  "y": 47.5626411437988,
+                  "z": 134.553237915039
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 5,
+                  "y": 0.532998,
+                  "z": 5
+                },
+                "shape": "3",
+                "size": {
+                  "x": 5,
+                  "y": 0.532998025417328,
+                  "z": 5
+                },
+                "useGravity": false
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "4de7ef03-1d29-4c73-9a85-fbc165b3afb8",
+                "children": [
+                  {
+                    "__OBJ_TYPE": "Instance_HingeConstraint",
+                    "id": "8800927849726164993",
+                    "masterPartName": "Part",
+                    "masterWorldPos": {
+                      "x": 52.5780944824219,
+                      "y": 43.4593467712402,
+                      "z": 140.828918457031
+                    },
+                    "motorForce": 50,
+                    "motorTargetAngleVelocity": 300,
+                    "slavePartID": "8800905673733062657",
+                    "slavePartName": "plate",
+                    "slaveWorldPos": {
+                      "x": 52.5276260375977,
+                      "y": 45.6646423339844,
+                      "z": 140.861175537109
+                    },
+                    "useMotor": true
+                  }
+                ],
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800905673730195457",
+                "massCenter": {
+                  "x": 52.5780944824219,
+                  "y": 45.3573455810547,
+                  "z": 134.520980834961
+                },
+                "material": {
+                  "alpha": 0,
+                  "color": {
+                    "b": 74,
+                    "g": 67,
+                    "r": 67
+                  }
+                },
+                "position": {
+                  "x": 52.5780944824219,
+                  "y": 45.3573455810547,
+                  "z": 134.520980834961
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 5,
+                  "z": 5
+                },
+                "size": {
+                  "x": 5,
+                  "z": 5
+                },
+                "useAnchor": true,
+                "useCollide": false,
+                "useGravity": false
+              }
+            ],
+            "id": "8800928318602100737",
+            "name": "3",
+            "position": {
+              "x": 52.5528602600098,
+              "y": 46.3432426452637,
+              "z": 134.537109375
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "080f92d3-aba6-4981-bc8a-eba7e7288df1",
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800905679019704321",
+                "massCenter": {
+                  "x": 52.5276260375977,
+                  "y": 45.7516403198242,
+                  "z": 140.28825378418
+                },
+                "material": {
+                  "color": {
+                    "g": 170
+                  }
+                },
+                "name": "plate",
+                "position": {
+                  "x": 52.5276260375977,
+                  "y": 45.7516403198242,
+                  "z": 140.28825378418
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 5,
+                  "y": 0.532998,
+                  "z": 5
+                },
+                "shape": "3",
+                "size": {
+                  "x": 5,
+                  "y": 0.532998025417328,
+                  "z": 5
+                },
+                "useGravity": false
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "4de7ef03-1d29-4c73-9a85-fbc165b3afb8",
+                "children": [
+                  {
+                    "__OBJ_TYPE": "Instance_HingeConstraint",
+                    "id": "8800934371541827585",
+                    "masterPartName": "Part",
+                    "masterWorldPos": {
+                      "x": 52.5780944824219,
+                      "y": 43.4593467712402,
+                      "z": 149.231964111328
+                    },
+                    "motorForce": 50,
+                    "motorTargetAngleVelocity": -500,
+                    "slavePartID": "8800905679019704321",
+                    "slavePartName": "plate",
+                    "slaveWorldPos": {
+                      "x": 52.5276260375977,
+                      "y": 45.6646423339844,
+                      "z": 149.264221191406
+                    },
+                    "useMotor": true
+                  }
+                ],
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8800905679016673281",
+                "massCenter": {
+                  "x": 52.5780944824219,
+                  "y": 43.5463447570801,
+                  "z": 140.255996704102
+                },
+                "material": {
+                  "alpha": 0,
+                  "color": {
+                    "b": 74,
+                    "g": 67,
+                    "r": 67
+                  }
+                },
+                "position": {
+                  "x": 52.5780944824219,
+                  "y": 43.5463447570801,
+                  "z": 140.255996704102
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 5,
+                  "z": 5
+                },
+                "size": {
+                  "x": 5,
+                  "z": 5
+                },
+                "useAnchor": true,
+                "useCollide": false
+              }
+            ],
+            "id": "8800934840883724289",
+            "name": "4",
+            "position": {
+              "x": 52.5528602600098,
+              "y": 44.5322418212891,
+              "z": 140.272125244141
+            }
+          }
+        ],
+        "id": "8800937184262946817",
+        "name": "R5",
+        "position": {
+          "x": 52.5528602600098,
+          "y": 45.3942432403564,
+          "z": 131.332538604736
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "68e7fdf4-197c-42ba-a3bb-050645d54118",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8800937680931061761",
+        "massCenter": {
+          "x": 52.4058685302734,
+          "y": 43.8100166320801,
+          "z": 149.129577636719
+        },
+        "material": {
+          "color": {
+            "b": 103,
+            "g": 95,
+            "r": 95
+          }
+        },
+        "name": "check point",
+        "position": {
+          "x": 52.4058685302734,
+          "y": 43.8100166320801,
+          "z": 149.129577636719
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 17,
+          "y": 4,
+          "z": 9
+        },
+        "size": {
+          "x": 17,
+          "y": 4,
+          "z": 9
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "e40db3c5-1bfa-4c6f-8f23-bb92946135ac",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800960213917794305",
+            "lineVelocity": {
+              "z": 6
+            },
+            "massCenter": {
+              "x": 51.8774795532227,
+              "y": 45.310001373291,
+              "z": 177.290878295898
+            },
+            "material": {
+              "color": {
+                "b": 127,
+                "g": 0,
+                "r": 0
+              }
+            },
+            "name": "part",
+            "position": {
+              "x": 51.8774795532227,
+              "y": 45.310001373291,
+              "z": 177.290878295898
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 6,
+              "z": 3
+            },
+            "size": {
+              "x": 6,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "8b80e347-64a8-4f95-9f4f-44426afaca9d",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800959735218290689",
+            "lineVelocity": {
+              "z": -3
+            },
+            "massCenter": {
+              "x": 51.966480255127,
+              "y": 45.310001373291,
+              "z": 173.257858276367
+            },
+            "material": {
+              "color": {
+                "b": 127,
+                "g": 0,
+                "r": 0
+              }
+            },
+            "name": "part",
+            "position": {
+              "x": 51.966480255127,
+              "y": 45.310001373291,
+              "z": 173.257858276367
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 6,
+              "z": 3
+            },
+            "size": {
+              "x": 6,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "f5954075-f51c-4f37-b9bd-290a17f9120f",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800959482100613121",
+            "lineVelocity": {
+              "x": -3
+            },
+            "massCenter": {
+              "x": 51.910472869873,
+              "y": 45.310001373291,
+              "z": 166.780853271484
+            },
+            "material": {
+              "color": {
+                "b": 127,
+                "g": 0,
+                "r": 0
+              }
+            },
+            "name": "part",
+            "position": {
+              "x": 51.910472869873,
+              "y": 45.310001373291,
+              "z": 166.780853271484
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "z": 7
+            },
+            "size": {
+              "x": 3,
+              "z": 7
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "15170d86-26c5-40c3-b111-5b7025a83718",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800953452342689793",
+            "lineVelocity": {
+              "x": 3
+            },
+            "massCenter": {
+              "x": 51.9324760437012,
+              "y": 45.310001373291,
+              "z": 158.775848388672
+            },
+            "material": {
+              "color": {
+                "b": 127,
+                "g": 0,
+                "r": 0
+              }
+            },
+            "name": "part",
+            "position": {
+              "x": 51.9324760437012,
+              "y": 45.310001373291,
+              "z": 158.775848388672
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "z": 7
+            },
+            "size": {
+              "x": 3,
+              "z": 7
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8800964181122007041",
+        "name": "R6",
+        "position": {
+          "x": 51.9219799041748,
+          "y": 45.310001373291,
+          "z": 167.033363342285
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "c5622e25-b658-4e9f-a524-f1ae4420750a",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8800961781350449153",
+        "massCenter": {
+          "x": 52.4058685302734,
+          "y": 43.8100166320801,
+          "z": 185.81559753418
+        },
+        "material": {
+          "color": {
+            "b": 103,
+            "g": 95,
+            "r": 95
+          }
+        },
+        "name": "check point",
+        "position": {
+          "x": 52.4058685302734,
+          "y": 43.8100166320801,
+          "z": 185.81559753418
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 25,
+          "y": 4,
+          "z": 9
+        },
+        "size": {
+          "x": 25,
+          "y": 4,
+          "z": 9
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "1fb5a917-34a2-4c54-b2b4-901de6412360",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800966931427180545",
+            "massCenter": {
+              "x": 52.4468421936035,
+              "y": 50.77001953125,
+              "z": 189.657821655273
+            },
+            "material": {
+              "color": {
+                "b": 219,
+                "g": 215,
+                "r": 215
+              }
+            },
+            "position": {
+              "x": 52.4468421936035,
+              "y": 50.77001953125,
+              "z": 189.657821655273
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 22,
+              "y": 10
+            },
+            "size": {
+              "x": 22,
+              "y": 10
+            },
+            "useAnchor": true,
+            "useCollide": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "9a45e6f1-e6f8-4bac-814a-2e02c7e90e82",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800966931433717761",
+            "massCenter": {
+              "x": 45.9796981811523,
+              "y": 45.310001373291,
+              "z": 202.672073364258
+            },
+            "material": {
+              "color": {
+                "g": 199,
+                "r": 121
+              }
+            },
+            "position": {
+              "x": 45.9796981811523,
+              "y": 45.310001373291,
+              "z": 202.672073364258
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3.99998,
+              "y": 0.999997,
+              "z": 24.9148
+            },
+            "size": {
+              "x": 3.99998497962952,
+              "y": 0.999996721744537,
+              "z": 24.9148178100586
+            },
+            "useAnchor": true,
+            "useCollide": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "8485ebec-1487-4893-856f-81d58e4b401e",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800966931439288321",
+            "massCenter": {
+              "x": 60.0806884765625,
+              "y": 45.310001373291,
+              "z": 202.679077148438
+            },
+            "material": {
+              "color": {
+                "g": 198,
+                "r": 120
+              }
+            },
+            "position": {
+              "x": 60.0806884765625,
+              "y": 45.310001373291,
+              "z": 202.679077148438
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3.99999,
+              "y": 0.999997,
+              "z": 24.9288
+            },
+            "size": {
+              "x": 3.99998545646667,
+              "y": 0.999996840953827,
+              "z": 24.9288272857666
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "55125341-f088-48e3-ae88-02fd7d848d5a",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8800968213112930305",
+            "massCenter": {
+              "x": 53.0416946411133,
+              "y": 45.310001373291,
+              "z": 202.65397644043
+            },
+            "material": {
+              "color": {
+                "g": 198,
+                "r": 120
+              }
+            },
+            "position": {
+              "x": 53.0416946411133,
+              "y": 45.310001373291,
+              "z": 202.65397644043
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3.99999,
+              "y": 0.999997,
+              "z": 24.879
+            },
+            "size": {
+              "x": 3.99998760223389,
+              "y": 0.99999737739563,
+              "z": 24.8789596557617
+            },
+            "useAnchor": true,
+            "useCollide": false
+          }
+        ],
+        "id": "8800969211203158017",
+        "name": "R7",
+        "position": {
+          "x": 52.4468421936035,
+          "y": 50.2900104522705,
+          "z": 202.237663269043
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "1f10ca7d-e6c0-4366-a49a-7fe903156714",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8800969388870221825",
+        "massCenter": {
+          "x": 52.4058685302734,
+          "y": 43.8100166320801,
+          "z": 219.62255859375
+        },
+        "material": {
+          "color": {
+            "b": 103,
+            "g": 95,
+            "r": 95
+          }
+        },
+        "name": "check point",
+        "position": {
+          "x": 52.4058685302734,
+          "y": 43.8100166320801,
+          "z": 219.62255859375
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 25,
+          "y": 4,
+          "z": 9
+        },
+        "size": {
+          "x": 25,
+          "y": 4,
+          "z": 9
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "c9b14c09-c5e4-4457-acd8-800b56850a89",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8802381710450671617",
+            "lineVelocity": {
+              "x": 35,
+              "y": 50,
+              "z": 60
+            },
+            "massCenter": {
+              "x": 50.223503112793,
+              "y": 46.5771522521973,
+              "z": 241.482818603516
+            },
+            "material": {
+              "color": {
+                "g": 85,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": 50.223503112793,
+              "y": 46.5771522521973,
+              "z": 241.482818603516
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -30
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.592999,
+              "z": 3
+            },
+            "size": {
+              "x": 2.99999690055847,
+              "y": 0.59299910068512,
+              "z": 2.99999666213989
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "d533d08e-9430-4948-b93a-a9737dd35059",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "5",
+                "id": "8802489584512057345"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8802379774844813313",
+            "lineVelocity": {
+              "z": 15
+            },
+            "massCenter": {
+              "x": 56.4735145568848,
+              "y": 45.31,
+              "z": 231.872695922852
+            },
+            "material": {
+              "color": {
+                "b": 127,
+                "g": 0,
+                "r": 0
+              }
+            },
+            "position": {
+              "x": 56.4735145568848,
+              "y": 45.31,
+              "z": 231.872695922852
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 5,
+              "z": 12
+            },
+            "size": {
+              "x": 5,
+              "z": 12
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "b00b81ba-d76d-4ad4-82ed-c729e00d7bc4",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8802380790958571521",
+            "lineVelocity": {
+              "z": -2
+            },
+            "massCenter": {
+              "x": 48.9325065612793,
+              "y": 45.31,
+              "z": 231.882705688477
+            },
+            "material": {
+              "color": {
+                "b": 127,
+                "g": 0,
+                "r": 0
+              }
+            },
+            "position": {
+              "x": 48.9325065612793,
+              "y": 45.31,
+              "z": 231.882705688477
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 5,
+              "z": 12
+            },
+            "size": {
+              "x": 5,
+              "z": 12
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "080f92d3-aba6-4981-bc8a-eba7e7288df1",
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8802387347789463553",
+                "massCenter": {
+                  "x": 60.4866256713867,
+                  "y": 59.6306610107422,
+                  "z": 252.044296264648
+                },
+                "material": {
+                  "color": {
+                    "g": 170
+                  }
+                },
+                "name": "plate",
+                "position": {
+                  "x": 60.4866256713867,
+                  "y": 59.6306610107422,
+                  "z": 252.044296264648
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 5,
+                  "y": 0.532998,
+                  "z": 5
+                },
+                "shape": "3",
+                "size": {
+                  "x": 5,
+                  "y": 0.532998025417328,
+                  "z": 5
+                },
+                "useGravity": false
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "4de7ef03-1d29-4c73-9a85-fbc165b3afb8",
+                "children": [
+                  {
+                    "__OBJ_TYPE": "Instance_HingeConstraint",
+                    "id": "8802387347795820545",
+                    "masterPartID": "8802387347796770817",
+                    "masterPartName": "Part",
+                    "masterWorldPos": {
+                      "x": 52.5780944824219,
+                      "y": 43.4593467712402,
+                      "z": 149.231964111328
+                    },
+                    "motorForce": 30,
+                    "motorTargetAngleVelocity": -300,
+                    "slavePartID": "8802387347789463553",
+                    "slavePartName": "plate",
+                    "slaveWorldPos": {
+                      "x": 52.5276260375977,
+                      "y": 45.6646423339844,
+                      "z": 149.264221191406
+                    },
+                    "useMotor": true
+                  }
+                ],
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8802387347798638593",
+                "massCenter": {
+                  "x": 60.5370941162109,
+                  "y": 57.425365447998,
+                  "z": 252.01203918457
+                },
+                "material": {
+                  "alpha": 0,
+                  "color": {
+                    "b": 74,
+                    "g": 67,
+                    "r": 67
+                  }
+                },
+                "position": {
+                  "x": 60.5370941162109,
+                  "y": 57.425365447998,
+                  "z": 252.01203918457
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 5,
+                  "z": 5
+                },
+                "size": {
+                  "x": 5,
+                  "z": 5
+                },
+                "useAnchor": true,
+                "useCollide": false
+              }
+            ],
+            "id": "8802387347805126657",
+            "name": "1",
+            "position": {
+              "x": 60.5118598937988,
+              "y": 58.411262512207,
+              "z": 252.028167724609
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "87b484bb-aac6-4761-af6d-0359822bb343",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8802391458267693057",
+            "lineVelocity": {
+              "x": 35,
+              "y": 50,
+              "z": 60
+            },
+            "massCenter": {
+              "x": 60.5648078918457,
+              "y": 60.1706619262695,
+              "z": 257.751892089844
+            },
+            "material": {
+              "color": {
+                "g": 85,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": 60.5648078918457,
+              "y": 60.1706619262695,
+              "z": 257.751892089844
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -30
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.592999,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.59299910068512,
+              "z": 2.99999666213989
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "79ec457c-c13b-41b6-8b50-913444549e15",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8802394844226355201",
+            "lineVelocity": {
+              "y": 50,
+              "z": -60
+            },
+            "massCenter": {
+              "x": 74.2658157348633,
+              "y": 74.7156524658203,
+              "z": 259.505889892578
+            },
+            "material": {
+              "color": {
+                "g": 85,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": 74.2658157348633,
+              "y": 74.7156524658203,
+              "z": 259.505889892578
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -35
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.592999,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.59299910068512,
+              "z": 2.99999666213989
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "44e2fae8-4f9a-4d1a-a806-09ee6ca3c982",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8802397018229293057",
+            "lineVelocity": {
+              "x": -50,
+              "y": 50,
+              "z": 20
+            },
+            "massCenter": {
+              "x": 78.3657836914062,
+              "y": 90.0064163208008,
+              "z": 246.538879394531
+            },
+            "material": {
+              "color": {
+                "g": 85,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": 78.3657836914062,
+              "y": 90.0064163208008,
+              "z": 246.538879394531
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": 30
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.592999,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.59299910068512,
+              "z": 2.99999666213989
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "4a74f5c6-4cc1-4ad9-85da-328a4b10c78b",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8802398049664040961",
+            "lineVelocity": {
+              "x": -50,
+              "y": 50,
+              "z": 20
+            },
+            "massCenter": {
+              "x": 63.7167892456055,
+              "y": 102.633697509766,
+              "z": 245.432907104492
+            },
+            "material": {
+              "color": {
+                "g": 85,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": 63.7167892456055,
+              "y": 102.633697509766,
+              "z": 245.432907104492
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.592999,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.59299910068512,
+              "z": 2.99999666213989
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "080f92d3-aba6-4981-bc8a-eba7e7288df1",
+                "cameraCollideEnable": false,
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8802405697012039681",
+                "massCenter": {
+                  "x": 63.0036315917969,
+                  "y": 116.077659606934,
+                  "z": 278.062286376953
+                },
+                "material": {
+                  "color": {
+                    "g": 170
+                  }
+                },
+                "name": "plate",
+                "position": {
+                  "x": 63.0036315917969,
+                  "y": 116.077659606934,
+                  "z": 278.062286376953
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 5,
+                  "y": 0.532998,
+                  "z": 5
+                },
+                "shape": "3",
+                "size": {
+                  "x": 5,
+                  "y": 0.532998025417328,
+                  "z": 5
+                },
+                "useGravity": false
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "4de7ef03-1d29-4c73-9a85-fbc165b3afb8",
+                "children": [
+                  {
+                    "__OBJ_TYPE": "Instance_HingeConstraint",
+                    "id": "8802405697018314753",
+                    "masterPartID": "8802405697019314177",
+                    "masterPartName": "Part",
+                    "masterWorldPos": {
+                      "x": 52.5780944824219,
+                      "y": 43.4593467712402,
+                      "z": 149.231964111328
+                    },
+                    "motorForce": 100,
+                    "motorTargetAngleVelocity": 300,
+                    "slavePartID": "8802405697012039681",
+                    "slavePartName": "plate",
+                    "slaveWorldPos": {
+                      "x": 52.5276260375977,
+                      "y": 45.6646423339844,
+                      "z": 149.264221191406
+                    },
+                    "useMotor": true
+                  }
+                ],
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8802405697021067265",
+                "massCenter": {
+                  "x": 63.0541000366211,
+                  "y": 113.872367858887,
+                  "z": 278.030059814453
+                },
+                "material": {
+                  "alpha": 0,
+                  "color": {
+                    "b": 74,
+                    "g": 67,
+                    "r": 67
+                  }
+                },
+                "position": {
+                  "x": 63.0541000366211,
+                  "y": 113.872367858887,
+                  "z": 278.030059814453
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 5,
+                  "z": 5
+                },
+                "size": {
+                  "x": 5,
+                  "z": 5
+                },
+                "useAnchor": true,
+                "useCollide": false
+              }
+            ],
+            "id": "8802405697027817473",
+            "name": "2",
+            "position": {
+              "x": 63.028865814209,
+              "y": 114.85326385498,
+              "z": 278.046173095703
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "d24652c0-7da8-4626-b721-06d71516d7e4",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8802412154894565377",
+            "lineVelocity": {
+              "x": 3,
+              "z": -3
+            },
+            "massCenter": {
+              "x": 63.2387886047363,
+              "y": 115.8876953125,
+              "z": 284.714996337891
+            },
+            "material": {
+              "color": {
+                "b": 127,
+                "g": 0,
+                "r": 0
+              }
+            },
+            "position": {
+              "x": 63.2387886047363,
+              "y": 115.8876953125,
+              "z": 284.714996337891
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 14,
+              "y": 0.592999,
+              "z": 5
+            },
+            "size": {
+              "x": 14,
+              "y": 0.59299910068512,
+              "z": 5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "1717642d-380e-476a-86ad-57fd3d972528",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8802402754436956161",
+                "lineVelocity": {
+                  "z": -3
+                },
+                "massCenter": {
+                  "x": 63.2387886047363,
+                  "y": 115.8876953125,
+                  "z": 265.066986083984
+                },
+                "material": {
+                  "color": {
+                    "b": 127,
+                    "g": 0,
+                    "r": 0
+                  }
+                },
+                "position": {
+                  "x": 63.2387886047363,
+                  "y": 115.8876953125,
+                  "z": 265.066986083984
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 5,
+                  "y": 0.592999,
+                  "z": 19
+                },
+                "size": {
+                  "x": 5,
+                  "y": 0.59299910068512,
+                  "z": 19
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "41068bca-2247-4331-965d-142b63b02a13",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8802404015224127489",
+                "massCenter": {
+                  "x": 63.2219581604004,
+                  "y": 116.334190368652,
+                  "z": 259.495422363281
+                },
+                "material": {
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 170
+                  }
+                },
+                "name": "kill",
+                "position": {
+                  "x": 63.2219581604004,
+                  "y": 116.334190368652,
+                  "z": 259.495422363281
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 4.99996,
+                  "y": 0.299998,
+                  "z": 0.250993
+                },
+                "size": {
+                  "x": 4.99996471405029,
+                  "y": 0.299997597932816,
+                  "z": 0.250993221998215
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "51528a00-4a7c-42d6-8083-aae56f7bfb46",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8802405053015474177",
+                "massCenter": {
+                  "x": 63.2219581604004,
+                  "y": 116.334190368652,
+                  "z": 265.206817626953
+                },
+                "material": {
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 170
+                  }
+                },
+                "name": "kill",
+                "position": {
+                  "x": 63.2219581604004,
+                  "y": 116.334190368652,
+                  "z": 265.206817626953
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 4.99997,
+                  "y": 0.299997,
+                  "z": 0.181993
+                },
+                "size": {
+                  "x": 4.99996852874756,
+                  "y": 0.299997270107269,
+                  "z": 0.181992903351784
+                },
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "batchType": "Dynamic",
+                "btsKey": "e6bb7332-7d4f-4525-a79a-40401493afe7",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8802405240687083521",
+                "massCenter": {
+                  "x": 63.2219581604004,
+                  "y": 116.334190368652,
+                  "z": 270.871032714844
+                },
+                "material": {
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 170
+                  }
+                },
+                "name": "kill",
+                "position": {
+                  "x": 63.2219581604004,
+                  "y": 116.334190368652,
+                  "z": 270.871032714844
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 4.99997,
+                  "y": 0.299997,
+                  "z": 0.193993
+                },
+                "size": {
+                  "x": 4.99997186660767,
+                  "y": 0.299997478723526,
+                  "z": 0.193993240594864
+                },
+                "useAnchor": true
+              }
+            ],
+            "id": "8802411404909051905",
+            "name": "1a",
+            "position": {
+              "x": 63.2303791046143,
+              "y": 116.037693023682,
+              "z": 265.066986083984
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "1717642d-380e-476a-86ad-57fd3d972528",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8802411599380725761",
+            "lineVelocity": {
+              "z": -2
+            },
+            "massCenter": {
+              "x": 63.2387886047363,
+              "y": 115.8876953125,
+              "z": 298.433837890625
+            },
+            "material": {
+              "color": {
+                "b": 127,
+                "g": 0,
+                "r": 0
+              }
+            },
+            "position": {
+              "x": 63.2387886047363,
+              "y": 115.8876953125,
+              "z": 298.433837890625
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 5,
+              "y": 0.592999,
+              "z": 19
+            },
+            "size": {
+              "x": 5,
+              "y": 0.59299910068512,
+              "z": 19
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "41068bca-2247-4331-965d-142b63b02a13",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8802411599388508161",
+            "massCenter": {
+              "x": 63.2219581604004,
+              "y": 116.334190368652,
+              "z": 293.257507324219
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 170
+              }
+            },
+            "name": "kill",
+            "position": {
+              "x": 63.2219581604004,
+              "y": 116.334190368652,
+              "z": 293.257507324219
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 4.99996,
+              "y": 0.299998,
+              "z": 0.250993
+            },
+            "size": {
+              "x": 4.99996471405029,
+              "y": 0.299997597932816,
+              "z": 0.250993221998215
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "51528a00-4a7c-42d6-8083-aae56f7bfb46",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8802411599395553281",
+            "massCenter": {
+              "x": 63.2219581604004,
+              "y": 116.334190368652,
+              "z": 298.968902587891
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 170
+              }
+            },
+            "name": "kill",
+            "position": {
+              "x": 63.2219581604004,
+              "y": 116.334190368652,
+              "z": 298.968902587891
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 4.99997,
+              "y": 0.299997,
+              "z": 0.181993
+            },
+            "size": {
+              "x": 4.99996852874756,
+              "y": 0.299997270107269,
+              "z": 0.181992903351784
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "e6bb7332-7d4f-4525-a79a-40401493afe7",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8802411599401811969",
+            "massCenter": {
+              "x": 63.2219581604004,
+              "y": 116.334190368652,
+              "z": 304.633117675781
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 170
+              }
+            },
+            "name": "kill",
+            "position": {
+              "x": 63.2219581604004,
+              "y": 116.334190368652,
+              "z": 304.633117675781
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 4.99997,
+              "y": 0.299997,
+              "z": 0.193993
+            },
+            "size": {
+              "x": 4.99997186660767,
+              "y": 0.299997478723526,
+              "z": 0.193993240594864
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "f889e658-db6d-4482-8c95-95db03b0a15b",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8802412976901718017",
+            "massCenter": {
+              "x": 63.4475326538086,
+              "y": 116.334190368652,
+              "z": 296.050079345703
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 170
+              }
+            },
+            "name": "kill",
+            "position": {
+              "x": 63.4475326538086,
+              "y": 116.334190368652,
+              "z": 296.050079345703
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 45
+            },
+            "scale": {
+              "x": 7,
+              "y": 0.299998,
+              "z": 0.250993
+            },
+            "size": {
+              "x": 7,
+              "y": 0.299997597932816,
+              "z": 0.250993221998215
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "52f84294-6552-44e0-b8d7-54fa248c9883",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8802413481706831873",
+            "massCenter": {
+              "x": 63.2524909973145,
+              "y": 116.334411621094,
+              "z": 301.864074707031
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 170
+              }
+            },
+            "name": "kill",
+            "position": {
+              "x": 63.2524909973145,
+              "y": 116.334411621094,
+              "z": 301.864074707031
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 45
+            },
+            "scale": {
+              "x": 7,
+              "y": 0.299998,
+              "z": 0.250993
+            },
+            "size": {
+              "x": 7,
+              "y": 0.299997597932816,
+              "z": 0.250993221998215
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "1e636735-2c70-4ecb-83e1-6c8b18d842a6",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8802413546103013377",
+            "massCenter": {
+              "x": 63.2430267333984,
+              "y": 116.33521270752,
+              "z": 301.848358154297
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 170
+              }
+            },
+            "name": "kill",
+            "position": {
+              "x": 63.2430267333984,
+              "y": 116.33521270752,
+              "z": 301.848358154297
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -45
+            },
+            "scale": {
+              "x": 7,
+              "y": 0.299998,
+              "z": 0.250993
+            },
+            "size": {
+              "x": 7,
+              "y": 0.299997597932816,
+              "z": 0.250993221998215
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8802417589530656769",
+        "name": "final",
+        "position": {
+          "x": 63.1227855682373,
+          "y": 80.6476078033447,
+          "z": 266.903266906738
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "9ce9c798-6c7f-41e9-a6d4-e8c5c81a9f97",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8802417866676502529",
+        "massCenter": {
+          "x": 63.2858848571777,
+          "y": 115.639091491699,
+          "z": 314.113647460938
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        "name": "Destination",
+        "position": {
+          "x": 63.2858848571777,
+          "y": 115.639091491699,
+          "z": 314.113647460938
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 9,
+          "z": 9
+        },
+        "size": {
+          "x": 9,
+          "z": 9
+        },
+        "useAnchor": true
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "588ab42557afdf0797e7071aa5890c04"
+    },
+    "VERSION": "0.24"
+  }
+}
