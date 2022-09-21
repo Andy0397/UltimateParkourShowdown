@@ -45,12 +45,12 @@ local function ConversionTime(time)
 end
 
 local function InitText()
-  Txt_time.Text = Lang:toText('LangKey_time')
-  Txt_name.Text = Lang:toText('LangKey_name')
-  Txt_rank.Text = Lang:toText('LangKey_ranking')
-  Img_logo.Txt_info.Text = Lang:toText('LangKey_rankTitle')
-  Btn_close.Txt_info.Text = Lang:toText('LangKey_close')
-  Btn_rank.Txt_info.Text = Lang:toText('LangKey_rankTitle')
+  Txt_time.Text = Lang:toText('Time')
+  Txt_name.Text = Lang:toText('Name')
+  Txt_rank.Text = Lang:toText('Ranking')
+  Img_logo.Txt_info.Text = Lang:toText('Leaderboard')
+  Btn_close.Txt_info.Text = Lang:toText('Close')
+  Btn_rank.Txt_info.Text = Lang:toText('Leaderboard')
 end
 
 --Refresh leaderboard display
@@ -80,7 +80,7 @@ function self:RefreshRankInfo(data)
     VL_rank:AddChild(newRank)
   end
   local myBestTime = ConversionTime(Me:getValue('time'))
-  Txt_bestTime.Text = Lang:toText('LangKey_bestTime') .. ' : ' .. (myBestTime or '')
+  Txt_bestTime.Text = Lang:toText('Best Time') .. ' : ' .. (myBestTime or '')
 end
 
 local event = Btn_rank:GetEvent("OnClick")

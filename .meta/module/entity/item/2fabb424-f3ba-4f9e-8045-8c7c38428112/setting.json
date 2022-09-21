@@ -1,0 +1,18 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Black Man With Sunglasses/Male Character1.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_2fabb424-f3ba-4f9e-8045-8c7c38428112"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6494315544313eee8bbe428f1e0ab2fb",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

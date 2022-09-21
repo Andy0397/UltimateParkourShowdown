@@ -1,0 +1,18 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Boy With Colorful Balloons/Character With Balloons.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_35961d77-87d0-416f-a17a-dc7a860c0b7f"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ecee7c5cc10c3d45f945f45c580c9eb3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

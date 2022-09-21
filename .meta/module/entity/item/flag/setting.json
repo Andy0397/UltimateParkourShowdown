@@ -1,0 +1,29 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Black And White Checkered Flag/Flag At The Start.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_flag"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d5832aedb8a1a103aa4fae3299cd5d5e",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

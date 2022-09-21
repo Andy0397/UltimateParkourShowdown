@@ -1,0 +1,19 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/file/Ice fire2.effect"
+      },
+      "yaw": 180
+    },
+    "name": {
+      "value": "buff_Long flame"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2f2309ddaefa1a9076b13049f14ced6d"
+    },
+    "VERSION": "0.24"
+  }
+}

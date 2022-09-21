@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "37261048d7882a1b465274998c824f6f",
+    "md5": "f3d6c79ffa8b868ce722583197239b22",
     "path": "asset/GameInfo.layout",
     "root": {
       "children": [
@@ -128,6 +128,7 @@
                   "Scale": 0.85
                 }
               },
+              "Text": "Leaderboard",
               "text_key": {
                 "value": "asset/GameInfo.layout.StaticText#f5466446-2ab8-41ab-8139-412d5099b123"
               },
@@ -766,7 +767,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "37261048d7882a1b465274998c824f6f",
+      "layout": "f3d6c79ffa8b868ce722583197239b22",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

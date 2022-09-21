@@ -82,6 +82,7 @@
         "id": "8712943737402572801",
         "massCenter": {
           "x": 52.1420211791992,
+          "y": -14,
           "z": 21.9145088195801
         },
         "material": {
@@ -95,6 +96,7 @@
         "name": "Baseplate",
         "position": {
           "x": 52.1420211791992,
+          "y": -14,
           "z": 21.9145088195801
         },
         "restitution": 0.3,
@@ -145,7 +147,8 @@
           "x": 9,
           "y": 4,
           "z": 9
-        }
+        },
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -180,7 +183,8 @@
         "size": {
           "x": 17,
           "z": 4
-        }
+        },
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Model",
@@ -212,7 +216,8 @@
               "x": 3,
               "y": 4,
               "z": 3
-            }
+            },
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -241,7 +246,8 @@
               "x": 3,
               "y": 2,
               "z": 3
-            }
+            },
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -270,7 +276,8 @@
               "x": 3,
               "y": 2,
               "z": 3
-            }
+            },
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -297,7 +304,8 @@
             "size": {
               "x": 3,
               "z": 3
-            }
+            },
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -326,7 +334,8 @@
               "x": 3,
               "y": 3,
               "z": 3
-            }
+            },
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -353,7 +362,8 @@
             "size": {
               "x": 3,
               "z": 3
-            }
+            },
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -380,7 +390,8 @@
             "size": {
               "x": 3,
               "z": 3
-            }
+            },
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -407,7 +418,8 @@
             "size": {
               "x": 3,
               "z": 3
-            }
+            },
+            "useAnchor": true
           }
         ],
         "id": "8800824403767656449",
@@ -453,7 +465,8 @@
           "x": 17,
           "y": 4,
           "z": 9
-        }
+        },
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Model",
@@ -492,7 +505,8 @@
               "x": 4.99997806549072,
               "y": 3.99998927116394,
               "z": 26.5028457641602
-            }
+            },
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Model",
@@ -813,44 +827,6 @@
                   "z": 0.368986576795578
                 },
                 "useAnchor": true
-              },
-              {
-                "__OBJ_TYPE": "Instance_Part",
-                "batchType": "Dynamic",
-                "btsKey": "c42db200-8c6c-4d4e-90ab-71926c381875",
-                "density": 2.2,
-                "friction": 0.37,
-                "id": "8800834870863806465",
-                "massCenter": {
-                  "x": 52.6542472839355,
-                  "y": 4.74851751327515,
-                  "z": 18.3064575195312
-                },
-                "material": {
-                  "color": {
-                    "b": 87,
-                    "g": 87,
-                    "r": 210
-                  }
-                },
-                "name": "kill",
-                "position": {
-                  "x": 52.6542472839355,
-                  "y": 4.74851751327515,
-                  "z": 18.3064575195312
-                },
-                "restitution": 0.3,
-                "scale": {
-                  "x": 4.96296,
-                  "y": 0.496992,
-                  "z": 0.333987
-                },
-                "size": {
-                  "x": 4.96295547485352,
-                  "y": 0.496991723775864,
-                  "z": 0.333986550569534
-                },
-                "useAnchor": true
               }
             ],
             "id": "8800836400228941825",
@@ -905,7 +881,8 @@
           "x": 17,
           "y": 4,
           "z": 9
-        }
+        },
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Model",
@@ -914,6 +891,13 @@
             "__OBJ_TYPE": "Instance_Part",
             "batchType": "Dynamic",
             "btsKey": "53d8fac1-e58a-44ca-a62d-7d405fecfffe",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "id": "8808037655839506433"
+              }
+            ],
             "density": 2.2,
             "friction": 0.37,
             "id": "8800878063512944641",
@@ -3389,6 +3373,56 @@
           "z": 9
         },
         "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/flag",
+        "id": "8807808792342429697",
+        "name": "entity_flag",
+        "position": {
+          "x": 63.4090805053711,
+          "y": 116.139114379883,
+          "z": 314.408233642578
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "f088c2bc-230c-4514-bd31-aa937f0779d2",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8809116627123437569",
+        "massCenter": {
+          "x": 68.6576995849609,
+          "y": 111.741096496582,
+          "z": 306.292419433594
+        },
+        "material": {
+          "alpha": 0,
+          "color": {
+            "b": 212,
+            "g": 212,
+            "r": 212
+          }
+        },
+        "name": "Baseplate",
+        "position": {
+          "x": 68.6576995849609,
+          "y": 111.741096496582,
+          "z": 306.292419433594
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 68.0257,
+          "y": 0.999982,
+          "z": 80
+        },
+        "size": {
+          "x": 68.0257339477539,
+          "y": 0.999982178211212,
+          "z": 80
+        },
+        "useAnchor": true
       }
     ],
     "name": {
@@ -3400,7 +3434,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "588ab42557afdf0797e7071aa5890c04"
+      "setting.json": "a192d21c4c33cccbcafd8368ee5ea816"
     },
     "VERSION": "0.24"
   }

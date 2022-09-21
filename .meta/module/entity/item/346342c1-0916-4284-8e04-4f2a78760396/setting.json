@@ -1,0 +1,18 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Red Man With Yellow Hair/npc_70409.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_346342c1-0916-4284-8e04-4f2a78760396"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "373268d4a1820ad132ee3b5a8211110f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

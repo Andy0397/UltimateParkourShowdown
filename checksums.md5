@@ -1,0 +1,95 @@
+abf6397d10e48894ee7770fd0beaa419 *asset/Actor/Black And White Checkered Flag/Flag At The Start.actor
+a71ef9ec67517572bb82430ac3ee5b17 *asset/Actor/Black Man With Sunglasses/Male Character1.actor
+caf616a479d4e20d3e844da5e2660b5b *asset/Actor/Boy In Red Hat And Blue Shirt/npc_20202.actor
+10cc0feb148927dd7853bb7e7e87d439 *asset/Actor/Boy With Colorful Balloons/Character With Balloons.actor
+90926c0be318e33a8cb09638d3e8420c *asset/Actor/Male Store Clerk/A Merchant.actor
+819fab91a7c4efff9153238313af53b0 *asset/Actor/Red Man With Yellow Hair/npc_70409.actor
+41e099f5ba8246f3640152a61bdfaf19 *asset/Actor/charactor/charactor_boy/character_boy.actor
+eefef84efc29d9f3cf9fa0b4b811cb68 *asset/Actor/charactor/charactor_boy/skel/electricity.actor
+5ba3b2c26ff948afe232b2d7e95ca1fe *asset/Actor/charactor/charactor_boy/skel/electricity2.actor
+3c32175aeb11fd8f25c0ed308f5f83b4 *asset/Actor/charactor/charactor_boy/skel/fire.actor
+fa8a5ff3debf024bd3b1b09653426ee3 *asset/Actor/charactor/charactor_girl/character_girl.actor
+76c87c79929a0a0fa346c999967b514b *asset/Actor/charactor/firstPrvActor/firstPrvActor.actor
+f3d6c79ffa8b868ce722583197239b22 *asset/GameInfo.layout
+9b350dd57398767764ca38d0a1640817 *asset/GameInfo.lua
+a91af94a42cf70bf73487037b4c9024c *asset/Gui/gameInfo.layout
+804bd4708962b15d44a1762e6d2b618b *asset/Gui/gameInfo.lua
+c303e3dae947f2daba46289a8e8e3491 *asset/file/Snow monster/xueguai_xueguai.actor
+cf346b80ae1e1221d8be053601d17bad *asset/file/Snow_monster.actor
+bde87235e2f304656d185c70ca614f20 *asset/file/flag/flag.actor
+d751713988987e9331980363e24189ce *coin.json
+8b4680f579056d53a7459bda38f8d752 *commodity.csv
+2a66487b7194814eef54159c357806a2 *events/007383fd-ac34-4711-b800-82602d53bb0f.bts
+2a66487b7194814eef54159c357806a2 *events/1e636735-2c70-4ecb-83e1-6c8b18d842a6.bts
+6542c4abcaee7997917a0f805c3ebb6b *events/1f10ca7d-e6c0-4366-a49a-7fe903156714.bts
+2a66487b7194814eef54159c357806a2 *events/2de0de42-ca82-4696-b261-10c1747d9723.bts
+2a66487b7194814eef54159c357806a2 *events/3c615c90-5a96-4ec1-be2b-8eac89d0c789.bts
+2a66487b7194814eef54159c357806a2 *events/41068bca-2247-4331-965d-142b63b02a13.bts
+8cf20f9acbcfe0fad5711ec1d6febc76 *events/449f30ed-4350-463c-9cd0-3a98d5596c21.bts
+948f87ffc1e248d1e24d9b2ff7dcc487 *events/4ee674a5-509d-45d2-b0d3-7c540ac23ba7.bts
+2a66487b7194814eef54159c357806a2 *events/51528a00-4a7c-42d6-8083-aae56f7bfb46.bts
+2a66487b7194814eef54159c357806a2 *events/52f84294-6552-44e0-b8d7-54fa248c9883.bts
+2a66487b7194814eef54159c357806a2 *events/55b1eae5-e113-4140-b3a3-aebf57466df7.bts
+1a89ca0334b0a37202d7e9cd23e4984f *events/6386d9cd-5d4c-43b0-9d9a-bcf5284ab94a.bts
+7eba536fb9cf247bb9ccf73e97136a42 *events/68e7fdf4-197c-42ba-a3bb-050645d54118.bts
+5993d50d9d4277ff358e681c32255d09 *events/7593daa4-cff2-4a6a-9f63-b2889707116a.bts
+2a66487b7194814eef54159c357806a2 *events/7981e32f-340b-4e51-b71e-d9f65fc64511.bts
+87acd51893e32df3d585defd59cc721b *events/9ce9c798-6c7f-41e9-a6d4-e8c5c81a9f97.bts
+2a66487b7194814eef54159c357806a2 *events/9ff71a67-d329-42ec-b4ae-47715f48f9f1.bts
+2a66487b7194814eef54159c357806a2 *events/b2eb4b5c-5eb1-4f69-aef2-09d32f635cf3.bts
+2a66487b7194814eef54159c357806a2 *events/c42db200-8c6c-4d4e-90ab-71926c381875.bts
+6820fe2d5e83321aeddee01c702afaae *events/c5622e25-b658-4e9f-a524-f1ae4420750a.bts
+2a66487b7194814eef54159c357806a2 *events/c57b25e0-05c4-495a-9260-6f1763f25fc3.bts
+06a253e886e1eb04c76c66dd39d80f3d *events/ceb792e9-f2c2-44ba-9cd9-26dde8149671.bts
+50b66cf1016d1fb0f34888b806e243e5 *events/cfa30698-92aa-4131-8dfb-2272169c1f03.bts
+2a66487b7194814eef54159c357806a2 *events/ddf38abb-b94c-47f7-b12e-c9d334df42af.bts
+2a66487b7194814eef54159c357806a2 *events/e6bb7332-7d4f-4525-a79a-40401493afe7.bts
+2a66487b7194814eef54159c357806a2 *events/e7019ac6-04a0-41f4-85f8-fd13d221de5b.bts
+2a66487b7194814eef54159c357806a2 *events/f088c2bc-230c-4514-bd31-aa937f0779d2.bts
+2a66487b7194814eef54159c357806a2 *events/f889e658-db6d-4482-8c95-95db03b0a15b.bts
+10a187119ae17f9cd62bd6d2abb917d3 *game_res_config.txt
+7de6fe70def3b44d46e11e236ad728d8 *gui/CMakeLists.txt
+d1fd7037f4941cd1b8cbfb94bb926990 *gui/events/GameInfo/setting.json
+d1fd7037f4941cd1b8cbfb94bb926990 *gui/events/Gui/gameInfo/setting.json
+d751713988987e9331980363e24189ce *gui/schemes/user_font.json
+1fce38776494c2922bc6b81253774249 *id_mappings.json
+55c24c0df797778643e5c09d68164708 *lang/lang.csv
+99a366a78ce928a3b42a4066e4311cc0 *lua/main.lua
+9107296bcc1365d8856684d484e481a9 *lua/script_client/audioMgr.lua
+e0c508403edde5dfb22a6c70d1cd808b *lua/script_client/main.lua
+eaa26c1b4606e91fde70b08395e92dc8 *lua/script_common/main.lua
+511948746819a65c1e43ac4c12ad242c *lua/script_server/calcTime.lua
+807b8496b7d57a18d9d6aa5ff8b545d1 *lua/script_server/main.lua
+6a64800523eb27c83d1e580b106a2132 *map/map001/meshPart.batch
+a192d21c4c33cccbcafd8368ee5ea816 *map/map001/setting.json
+2f2309ddaefa1a9076b13049f14ced6d *plugin/myplugin/buff/Long flame/setting.json
+934d994639d7b2c2fd5620c03cd087dd *plugin/myplugin/buff/aperture/setting.json
+f9c402e2ad1ea3bb02a38f341fdbef37 *plugin/myplugin/buff/electricity/setting.json
+6d950ee88d92c221e446a4d0bbe9017b *plugin/myplugin/buff/freeze/setting.json
+d7de7beae32e67aae41beb61d634464f *plugin/myplugin/buff/win/setting.json
+932d520c99c89fc0f5146d5135989c84 *plugin/myplugin/entity/196ab7a6-8881-4a49-bcf8-5d4b75374390/setting.json
+6494315544313eee8bbe428f1e0ab2fb *plugin/myplugin/entity/2fabb424-f3ba-4f9e-8045-8c7c38428112/setting.json
+373268d4a1820ad132ee3b5a8211110f *plugin/myplugin/entity/346342c1-0916-4284-8e04-4f2a78760396/setting.json
+ecee7c5cc10c3d45f945f45c580c9eb3 *plugin/myplugin/entity/35961d77-87d0-416f-a17a-dc7a860c0b7f/setting.json
+490b20ad9da9242d29c3a81621dbe5ea *plugin/myplugin/entity/5d517b40-56db-4817-924f-ed9dee0c7735/setting.json
+8c6d25de2d401512c23c968cb99c9e79 *plugin/myplugin/entity/9dfa38db-d230-4f01-90d0-90b0c0df57ed/setting.json
+3bd7435356e5d0dab08fcfa28f435879 *plugin/myplugin/entity/attacker/setting.json
+cd3a2d98d9b064358ae1532943f9f6b9 *plugin/myplugin/entity/electricity/setting.json
+865d7087bb4aabb9b8465eda2d6163ab *plugin/myplugin/entity/electricity2/setting.json
+8f5e1862844443d6e291fb24dbaf029e *plugin/myplugin/entity/fire/setting.json
+d9a42a5e1293cc9b6851d81441443340 *plugin/myplugin/entity/fire_time/setting.json
+7f184414d9328686601d80c87b94abbf *plugin/myplugin/entity/fire_time/triggers.bts
+d5832aedb8a1a103aa4fae3299cd5d5e *plugin/myplugin/entity/flag/setting.json
+2c71bc3e6352540afc8df1390828bc87 *plugin/myplugin/entity/player1/setting.json
+408d75f3fba74589049c39164d7d6b00 *plugin/myplugin/frontsight/frontsight1/setting.json
+9d5f57312051bcd1e339a662db8ff62c *plugin/myplugin/missile/attcak/setting.json
+ccf9a4677ad335a96680f97406d3a46e *plugin/myplugin/skill/hurt/setting.json
+5eabf4a2df2880a7450ca01160b065ba *plugin/myplugin/skill/throw/setting.json
+9da1856beb4df9aad5e0bf302cc1a920 *setting.json
+393e9a440b900b5690986ec2b0e57be5 *shop.csv
+54c995fc89116bf5dab4172fe1547a57 *terrain/map001/collision.xcs
+86c6f0e87574ba5b7d473d8537c29f19 *terrain/map001/terrain.vert
+25daad3d9e60b45043a70c4ab7d3b1c6 *terrain/map001/usedMaterial.vxmat
+f96e3b8cd767cff671dfd85de57a8809 *terrain/terrain_files.json
+17c30291386ce451982562d2deeebeb5 *user_data.json
+f96e3b8cd767cff671dfd85de57a8809 *terrain/terrain_files.json

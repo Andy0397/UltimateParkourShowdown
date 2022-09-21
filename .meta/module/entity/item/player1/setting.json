@@ -1,12 +1,7 @@
 {
   "data": {
     "actorModel": {
-      "actorName": {
-        "asset": ""
-      },
-      "girlactor": {
-        "asset": ""
-      }
+      "modelType": "Customize"
     },
     "AI_attack": {
       "enable": true
@@ -14,14 +9,9 @@
     "AI_patrol": {
       "patrolMode": "randomPath"
     },
-    "boundingVolume": {
-      "height": 1.7,
-      "height_c": 1.7,
-      "radius": 0.43,
-      "radius_c": 0.43,
-      "type": "Capsule"
-    },
     "canRevive": true,
+    "collision": true,
+    "damage": 5,
     "deadAction": {
       "deathHideTime": {
         "value": 60
@@ -34,13 +24,15 @@
     ],
     "hideName": true,
     "isPlayer": true,
+    "maxHp": 5,
+    "moveSpeed": 6,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9059746de060da818661fa95292252b2",
+      "setting.json": "2c71bc3e6352540afc8df1390828bc87",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

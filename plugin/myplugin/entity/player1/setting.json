@@ -1,6 +1,8 @@
 {
   "_clientScript": [],
   "_serverScript": [],
+  "actorGirlName": "asset/Actor/charactor/charactor_girl/character_girl.actor",
+  "actorName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
   "aiFixSpeedRate": 2,
   "attackNpc": false,
   "autoAttack": false,
@@ -25,26 +27,28 @@
   "castRealShadowAtFirstPRV": false,
   "chaseDistance": 10,
   "chaseInterval": 10,
-  "checkGroundWhenCollisionMargin": true,
   "checkPartTouchEvent": true,
   "clickDistance": 4,
   "collider": {
-    "height": 1.7,
+    "extent": {
+      "x": 0.6,
+      "y": 1.8,
+      "z": 0.6
+    },
     "offset": {
       "x": 0,
       "y": 0,
       "z": 0
     },
-    "radius": 0.43,
     "rotation": {
       "x": 0,
       "y": 0,
       "z": 0
     },
-    "type": "Capsule"
+    "type": "Box"
   },
-  "collision": false,
-  "damage": 0,
+  "collision": true,
+  "damage": 5,
   "damageViewBobbing": [
     {
       "count": 2,
@@ -98,18 +102,18 @@
     10,
     30
   ],
-  "ignorePlayerSkin": false,
+  "ignorePlayerSkin": true,
   "isAIGoHomePos": true,
   "isPlayer": true,
   "jumpHeight": 0.6,
   "jumpSpeed": 0.5,
-  "maxHp": 20,
+  "maxHp": 5,
   "maxVisualAngle": 360,
   "meetCliffBackRun": true,
-  "modelType": "System",
+  "modelType": "Customize",
   "moveAcc": 0.2,
   "moveFactor": 1,
-  "moveSpeed": 0.2,
+  "moveSpeed": 0.3,
   "name": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d",
   "needCheckTouch": true,
   "patrolDistance": 5,

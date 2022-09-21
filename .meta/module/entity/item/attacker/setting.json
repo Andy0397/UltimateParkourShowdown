@@ -1,0 +1,42 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/file/Snow monster/xueguai_xueguai.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 20,
+      "enable": true,
+      "maxVisualAngle": 250,
+      "skillList": [
+        {
+          "attackDis": 15,
+          "fullName": "myplugin/throw",
+          "priority": 2
+        }
+      ]
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "collision": true,
+    "damage": 1,
+    "enableAI": true,
+    "girlactor": {
+      "asset": "asset/file/Snow monster/xueguai_xueguai.actor"
+    },
+    "hideName": true,
+    "moveSpeed": 0,
+    "name": {
+      "value": "entity_attacker"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3bd7435356e5d0dab08fcfa28f435879"
+    },
+    "VERSION": "0.24"
+  }
+}

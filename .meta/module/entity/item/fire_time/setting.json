@@ -1,0 +1,26 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "empty.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_fire_time"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d9a42a5e1293cc9b6851d81441443340"
+    },
+    "VERSION": "0.24"
+  }
+}

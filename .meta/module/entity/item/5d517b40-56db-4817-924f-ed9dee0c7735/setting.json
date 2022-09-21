@@ -1,0 +1,18 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Male Store Clerk/A Merchant.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_5d517b40-56db-4817-924f-ed9dee0c7735"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "490b20ad9da9242d29c3a81621dbe5ea",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/charactor/charactor_boy/skel/electricity.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "checkPartTouchEvent": false,
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_electricity"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "cd3a2d98d9b064358ae1532943f9f6b9"
+    },
+    "VERSION": "0.24"
+  }
+}

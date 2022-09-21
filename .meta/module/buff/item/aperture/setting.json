@@ -1,0 +1,20 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/file/halo.effect"
+      }
+    },
+    "deadRemove": true,
+    "name": {
+      "value": "buff_aperture"
+    },
+    "sync": "self"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "934d994639d7b2c2fd5620c03cd087dd"
+    },
+    "VERSION": "0.24"
+  }
+}
